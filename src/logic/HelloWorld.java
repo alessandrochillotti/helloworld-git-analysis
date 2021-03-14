@@ -4,6 +4,7 @@ import java.util.logging.Logger;
 
 public class HelloWorld {
 
+	// Created logget and set string "Hello World!"
 	private static final Logger LOGGER = Logger.getLogger("Hello World!");
 	
 	public static void main(String[] args) {

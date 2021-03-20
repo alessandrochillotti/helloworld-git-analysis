@@ -8,6 +8,7 @@ public class HelloWorld {
 	private static final Logger LOGGER = Logger.getLogger("Hello World!");
 	
 	public static void main(String[] args) {
+		//Use logger to print message
 		LOGGER.info(LOGGER.getName());
 	}
 

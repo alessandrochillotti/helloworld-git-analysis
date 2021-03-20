@@ -4,12 +4,13 @@ import java.util.logging.Logger;
 
 public class HelloWorld {
 
-	// Created logget and set string "Hello World!"
+	// Created logger and set string "Hello World!"
 	private static final Logger LOGGER = Logger.getLogger("Hello World!");
 	
 	public static void main(String[] args) {
 		//Use logger to print message
 		LOGGER.info(LOGGER.getName());
+		System.exit(1);
 	}
 
 }
